@@ -1,0 +1,49 @@
+# Ignorar el entorno virtual
+venv/
+.env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuraciones de entorno e IDEs
+.env
+*.env
+*.env.*
+.vscode/
+.idx
+.idea/
+*.swp
+*.swo
+
+# Archivos de paquetes
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.dist-info/
+
+# Archivos de registro
+*.log
+
+# Archivos de bases de datos
+*.sqlite3
+
+# Archivos generados por pytest o herramientas de pruebas
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Archivos de MyPy y otros linters
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Carpetas de documentación generadas
+docs/_build/
+
+# Archivos de seguridad y llaves
+secrets.yaml
